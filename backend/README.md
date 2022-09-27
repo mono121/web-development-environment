@@ -17,8 +17,8 @@ docker-compose run web django-admin.py startproject [作成するプロジェク
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'admin',
-        'USER': 'postgres',
+        'NAME': 'postgres',
+        'USER': 'admin',
         'PASSWORD': 'password',
         'HOST': 'db',
         'PORT': 5432,
